@@ -1,4 +1,4 @@
-# Player de Vídeo
+# ▶️ Player de Vídeo
 Desafio realizado no curso Programador BR com o intuito de adquirir conhecimento em JavaScript. Nessa aula aprendemos a controlar um video utilizando a linguagem.
 
 <div align="center" >
