@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e3c5453e4f.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <section>
+        <div class="box-video">
+            <div class="container">
+
+                <video id="video1" class="video" src="./assets/video/RocketQ-final.mp4">
+        
+                </video>
+        
+                <div id="controller" class="controller">
+                    <i class="fas fa-undo" onclick="undo()" alt="Retroceder"></i>
+                    <i class="fas fa-redo" onclick="redo()" alt="Avançar"></i>
+                    <i class="fas fa-minus" onclick="minus()" alt="Diminuir Velocidade"></i>
+                    <i class="fas fa-plus" onclick="plus()" alt="Aumentar Velocidade"></i>
+                    <i class="fas fa-play" onclick="play()" alt="Iniciar"></i>
+                    <i class="fas fa-stop" onclick="stop()" alt="Parar"></i>
+                </div>
+        
+                <h2>My Video Player</h2>
+            </div>
+
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
