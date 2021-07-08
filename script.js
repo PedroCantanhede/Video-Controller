@@ -32,6 +32,8 @@ function stop() {
     video.currentTime = 0;
 }
 
+
+// Função Exibir e Tirar os Controles
 let controls = document.getElementsByClassName('controller')[0];
 
 controls.addEventListener('mouseover',function(){
